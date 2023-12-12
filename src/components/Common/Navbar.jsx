@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import {
   AiOutlineMenu,
-  AiOutlineShoppingCart,
+  
 } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
 import { useSelector } from "react-redux";
 import { Link, matchPath, useLocation } from "react-router-dom";
-import logo from "../../assets/Images/lawlogo.jpg";
+// import logo from "../../assets/Images/lawlogo.jpg";
 import { NavbarLinks } from "../../data/navbar-links";
 import { apiConnector } from "../../services/apiconnector";
 import { categories } from "../../services/api";

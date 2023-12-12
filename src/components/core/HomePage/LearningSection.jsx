@@ -21,14 +21,14 @@ const LearningSection = () => {
         </div>
 
         <div className='flex flex-col-reverse gap-2 lg:flex-row items-center justify-center mt-5'>
-            <img src={knowYourProgress} className='object-contain -mr-28 rotate-6 shadow-xl'
+            <img src={knowYourProgress} className='object-contain -mr-28 rotate-6 shadow-xl' alt='abc'
             width={400} 
             height={400}
             />
 
-            <img src={compare_with_others} className='object-contain' />
+            <img src={compare_with_others} className='object-contain' alt='abc' />
 
-            <img src={plan_your_lesson} className='object-contain -ml-36 -rotate-6 shadow-xl' />
+            <img src={plan_your_lesson} className='object-contain -ml-36 -rotate-6 shadow-xl' alt='abc' />
         </div>
 
         <div className='w-fit'>

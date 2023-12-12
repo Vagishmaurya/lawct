@@ -1,21 +1,21 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 import {Swiper, SwiperSlide} from "swiper/react"
 import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
-import { Autoplay,FreeMode,Navigation, Pagination}  from 'swiper/modules'
+import { Autoplay,FreeMode, Pagination}  from 'swiper/modules'
 import ReactStars from "react-rating-stars-component"
-import { apiConnector } from '../../services/apiconnector'
-import { ratingsEndpoints } from '../../services/api'
+// import { apiConnector } from '../../services/apiconnector'
+// import { ratingsEndpoints } from '../../services/api'
 import { FaStar } from 'react-icons/fa'
 import lg from"../../assets/Images/passport_size.jpg"
 
 
 const ReviewSlider = () => {
 
-    const [reviews, setReviews] = useState([]);
-    const truncateWords = 15;
+    // const [reviews, setReviews] = useState([]);
+    // const truncateWords = 15;
 
 
    
