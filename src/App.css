@@ -85,14 +85,14 @@ details > summary::-webkit-details-marker {
   filter: blur(34px);
   transform: matrix(1, 0, -0.03, 1, 0, 0);
 }
-/* .loginbg{
+.loginbg{
   background-image: url(../src/assets/Images/li.png);
   
 }
 
 .homebg{
    background-image: url(../src/assets/Images/cy.png);
-} */
+}
 .codeblock2 {
   position: absolute;
   width: 372.95px;
