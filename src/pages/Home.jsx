@@ -1,33 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {FaArrowRight , FaAmbulance} from 'react-icons/fa';
+import {FaArrowRight } from 'react-icons/fa';
 import HighlightText from '../components/core/HomePage/HighlightText';
 import CTAButton from '../components/core/HomePage/Button';
-import Banner from '../assets/Images/banner.mp4'
-import CodeBlocks from '../components/core/HomePage/CodeBlocks';
+// import Banner from '../assets/Images/banner.mp4'
+// import CodeBlocks from '../components/core/HomePage/CodeBlocks';
 import TimeLineSection from '../components/core/HomePage/TimeLineSection';
 import LearningSection from '../components/core/HomePage/LearningSection';
-import InstructorSection from '../components/core/HomePage/InstructorSection';
-import Footer from '../components/Common/Footer';
+// import InstructorSection from '../components/core/HomePage/InstructorSection';
+// import Footer from '../components/Common/Footer';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
 import ReviewSlider from '../components/Common/ReviewSlider';
 import cartoon from '../assets/Images/cartoonChar.svg';
-import spiral from '../assets/Images/curveArrow.svg';
+// import spiral from '../assets/Images/curveArrow.svg';
 import connect from '../assets/Images/Connect.png'
 import chat from '../assets/Images/chat.png'
 import resolve from'../assets/Images/377.png'
 import bail from '../assets/Images/470.png'
-import lawf from '../assets/Images/lawf.webp'
-import procedure from '../assets/Images/procedure.jpg'
-import Slider from 'react-slick';
+// import lawf from '../assets/Images/lawf.webp'
+// import procedure from '../assets/Images/procedure.jpg'
+// import Slider from 'react-slick';
 import './Home.css';
 
 
     
 //import React, {useRef} from "react";
 //import CSSRulePlugin from "gsap/CSSRulePlugin"
-import {  Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
-import { useEffect } from 'react';
+// import {  Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+// import { useEffect } from 'react';
 
 
 const Home = () => {

@@ -33,8 +33,8 @@ import CourseDetails from "./pages/CourseDetails";
 function App() {
 
 
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
+  // const dispatch = useDispatch();
+  // const navigate = useNavigate();
   
   const { user } = useSelector((state) => state.profile)
 

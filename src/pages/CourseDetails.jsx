@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
 
 import ConfirmationModal from "../components/Common/ConfirmationModal"
-import Footer from "../components/Common/Footer"
+// import Footer from "../components/Common/Footer"
 import RatingStars from "../components/Common/RatingStars"
 import CourseAccordionBar from "../components/core/Course/CourseAccordionBar"
 import CourseDetailsCard from "../components/core/Course/CourseDetailsCard"
@@ -88,7 +88,7 @@ function CourseDetails() {
   }
 
   const {
-    _id: course_id,
+    // _id: course_id,
     courseName,
     courseDescription,
     thumbnail,
