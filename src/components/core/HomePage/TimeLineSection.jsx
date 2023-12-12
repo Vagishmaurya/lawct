@@ -3,7 +3,7 @@ import Logo1 from "../../../assets/TimeLineLogo/Logo1.svg"
 import Logo2 from "../../../assets/TimeLineLogo/Logo2.svg"
 import Logo3 from "../../../assets/TimeLineLogo/Logo3.svg"
 import Logo4 from "../../../assets/TimeLineLogo/Logo4.svg"
-import timelineImage from "../../../assets/Images/TimelineImage.png"
+// import timelineImage from "../../../assets/Images/TimelineImage.png"
 import timelines from "../../../assets/Images/360.jpg"
 
 const timeline = [
@@ -40,7 +40,7 @@ const TimeLineSection = () => {
                         <div className='flex gap-5' key={index}>
 
                             <div className='w-[50px] h-[50px] items-center flex'>
-                                <img src={element.Logo} />
+                                <img src={element.Logo} alt='abc'/>
                             </div>
 
                             <div>

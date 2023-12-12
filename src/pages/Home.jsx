@@ -129,27 +129,27 @@ const Home = () => {
         <div className='flex  justify-center w-[80%] font-bold text-lg text-richblack-400 mt-28'>
             <div className='flex flex-col gap-32'>
                 <div>
-                    <img src={connect}
+                    <img src={connect} alt='abc'
                     width={100}
                     className='rounded-full'
                     ></img>
                 </div>
                 <div>
-                    <img src={chat}
+                    <img src={chat} alt='abc'
                     width={100}
                     ></img>
                 </div>
             </div>
-           <img  src={cartoon}></img>
+           <img  src={cartoon} alt='abc'></img>
            {/* <img src={spiral}></img> */}
                <div className=' flex flex-col gap-32'>
                 <div>
-                    <img src={resolve}
+                    <img src={resolve} alt='abc'
                     width={100}
                     ></img>
                 </div>
                 <div>
-                    <img src={bail}
+                    <img src={bail} alt='abc'
                     width={100}
                     >
                     </img>
